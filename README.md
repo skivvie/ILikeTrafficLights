@@ -4,4 +4,4 @@ The current code is there for these things which work:
 1. Control the light directly. Press Red button, red light on traffic light goes on. Green button, green light. Yellow button, yellow light. Blue button, all lights. This works great. 
 2. Have a game of Simon. This also works great as a hunk of code by itself. 
 
-I want to switch between the two modes above if a "mode" button is pressed on the controller. Pretty simple.
+I want to switch between the two modes above if a "mode" button is pressed on the controller. Pretty simple. But it has to run the Simon Game loop until the mode button is pressed, then go into controller mode until mode button is pressed... etc.
